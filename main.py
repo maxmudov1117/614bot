@@ -10,22 +10,17 @@ dp = Dispatcher()
 def main_menu():
     return InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="🎵 YouTube Music", callback_data="youtube_music"),
-            InlineKeyboardButton(text="🔍 Google Search", callback_data="google_search"),
+            InlineKeyboardButton(text="🔍 Menyuli bot", callback_data="google_search", url="https://t.me/menyulitatu_bot"),
         ],
         [
-            InlineKeyboardButton(text="📸 Instagram", callback_data="instagram"),
+            InlineKeyboardButton(text="📸 Chatgpt bot", callback_data="instagram", url="https://t.me/chatgpt1117_bot"),
             InlineKeyboardButton(text="✈️ Telegram", callback_data="telegram", url="https://t.me/maxmudov_1117"),
-            InlineKeyboardButton(text="📘 Facebook", callback_data="facebook"),
+            InlineKeyboardButton(text="📘 Shazam bot", callback_data="facebook", url="https://t.me/musicwkm614_bot"),
         ],
         [
-            InlineKeyboardButton(text="🐦 Twitter", callback_data="twitter"),
-            InlineKeyboardButton(text="🎬 TikTok", callback_data="tiktok"),
-        ],
-        [
-            InlineKeyboardButton(text="🎧 Spotify", callback_data="spotify"),
-            InlineKeyboardButton(text="🍿 Netflix", callback_data="netflix"),
-            InlineKeyboardButton(text="💻 GitHub", callback_data="github"),
+            InlineKeyboardButton(text="🐦 Emotion bot", callback_data="twitter", url="https://t.me/emotion_uz_bot"),
+            InlineKeyboardButton(text="🐦 Expense", callback_data="twitter", url="https://t.me/expenses25_bot"),
+            InlineKeyboardButton(text="🎬 Kino bot", callback_data="tiktok", url="https://t.me/Kinokod11_bot"),
         ],
         [
          InlineKeyboardButton(text="❓ Yordam", callback_data="help"),
